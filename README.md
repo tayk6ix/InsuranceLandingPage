@@ -2,6 +2,10 @@
 
 This is a solution to the [Insure landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+
+HELLO WELCOME TO MY SECOND PROJECT UPLOADED.
+HOPE YOU ENJO!!
+if youh have any comments please leave them in my frontend solution!
 ## Table of contents
 
 - [Overview](#overview)
@@ -32,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/second-project-used-scss-for-this-projectanything-i-can-improve-on-KveKGGh4j)
 - Live Site URL: [Live](https://02ad00e8.insurancelandingpage-github-io.pages.dev/)
 
 ## My process
@@ -115,8 +119,8 @@ This projects keep pushing me and as well as my limits, I keep learning what I c
 
 ## Author
 
-- GitHUb - [tayk6ix](https://www.your-site.com)
-- Frontend Mentor - [@tayk6ix](https://www.frontendmentor.io/profile/yourusername)
+- GitHUb - [tayk6ix](https://github.com/tayk6ix)
+- Frontend Mentor - [@tayk6ix](https://www.frontendmentor.io/profile/tayk6ix)
 
 
 
