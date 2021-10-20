@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live](https://02ad00e8.insurancelandingpage-github-io.pages.dev/)
 
 ## My process
 
@@ -115,8 +115,8 @@ This projects keep pushing me and as well as my limits, I keep learning what I c
 
 ## Author
 
-- GitHUb - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHUb - [tayk6ix](https://www.your-site.com)
+- Frontend Mentor - [@tayk6ix](https://www.frontendmentor.io/profile/yourusername)
 
 
 
