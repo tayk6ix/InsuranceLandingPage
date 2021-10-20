@@ -52,7 +52,7 @@ nav .ham .not_active {
 }
 
 .section1 {
-  background-image: url(/dist/images/bg-pattern-intro-left-mobile.svg), url(/dist/images/bg-pattern-intro-right-mobile.svg);
+  background-image: url(/images/bg-pattern-intro-left-mobile.svg), url(/images/bg-pattern-intro-right-mobile.svg);
   background-repeat: no-repeat , no-repeat;
   background-size: 50% , 35%;
   background-position-x: left , right;
@@ -260,7 +260,7 @@ nav .ham .not_active {
   gap: 2.5rem;
   text-align: center;
   background-color: #2d2640;
-  background-image: url(/dist/images/bg-pattern-how-we-work-mobile.svg);
+  background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
   background-repeat: no-repeat;
   background-size: 55%;
   background-position-x: right;
@@ -309,7 +309,7 @@ footer span {
 
 .social {
   padding: 5.3rem 0 2.19rem;
-  background-image: url(/dist/images/bg-pattern-footer-mobile.svg);
+  background-image: url(/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -473,7 +473,7 @@ footer span {
     border: #2b272f;
   }
   .section1 {
-    background-image: url(/dist/images/bg-pattern-intro-left-desktop.svg), url(/dist/images/bg-pattern-intro-right-desktop.svg);
+    background-image: url(/images/bg-pattern-intro-left-desktop.svg), url(/images/bg-pattern-intro-right-desktop.svg);
     background-repeat: no-repeat , no-repeat;
     background-size: 15%, 25%;
     background-position-x: left, right;
@@ -559,7 +559,7 @@ footer span {
     font-size: 1.18rem;
   }
   .card {
-    background-image: url(/dist/images/bg-pattern-how-we-work-desktop.svg);
+    background-image: url(/images/bg-pattern-how-we-work-desktop.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: right;
@@ -588,7 +588,7 @@ footer span {
     max-width: 50%;
   }
   footer {
-    background-image: url(/dist/images/bg-pattern-footer-desktop.svg);
+    background-image: url(/images/bg-pattern-footer-desktop.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-x: -15%;

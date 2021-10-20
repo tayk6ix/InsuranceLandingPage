@@ -1,0 +1,257 @@
+@import "./appliances/colors";
+@import "./appliances/fonts";
+@import "./Useful/mixins";
+@import "./Useful/functions";
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+nav {
+    // Navigation alignment
+    height: 5.5rem;
+    @include flex(row, center, space-between, 0);
+    padding: 0 2rem ;
+    position: relative;
+        // Button
+        .ham {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+                .not_active {
+                    display: none;
+                }
+        }
+}
+
+// First Image
+.header_img {
+    padding: 0;
+    height: 451px;
+    width: 100%;
+    img {
+        width: 100%;
+        height: 451px;
+    }
+}
+
+.section1 {
+    background-image: url(/images/bg-pattern-intro-left-mobile.svg) , url(/images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat , no-repeat;
+    background-size: 50% , 35%;
+    background-position-x: left , right;
+    background-position-y: top , 33%;
+        .desk_img{
+            display: none;
+        }
+        .header {
+            position: relative;
+            background-color: $DarkViolet;
+            color: $VeryLightGray;
+            text-align: center;
+            height: 30rem;
+            z-index: -2;
+            padding: 0 25px;
+            @include flex(column, center, center, 1rem);
+                .desk_span {
+                    display: none;
+                }
+                h1 {
+                    @include fonts($FontD, $FontD1, 2.68rem);
+                    line-height: 2.75rem;
+                }
+                p{
+                    @include fonts($FontK, $FontK1, 1.04rem);
+                    line-height: 1.5rem;
+                    margin-bottom: 1rem
+                }
+                a {
+                    @include fonts($FontK, $FontK1, 1rem);
+                    padding: .5em 1.5em;
+                    border: 2px solid $VeryLightGray;
+                    text-decoration: none;
+                    color: $VeryLightGray;
+                    cursor: pointer;
+                    z-index: 1;
+                    transition: 300ms ease-in-out;
+
+                }
+                a:hover {
+                    background-color: white;
+                    color: $DarkViolet;
+                }
+        }
+        span {
+            display: flex;
+            width: 50vw;
+            height: 1px;
+            background-color: $VeryDarkViolet;
+            margin-left:auto;
+            align-self: center;
+            margin: 9em 0 2em 25vw
+        }
+        #sub_title {
+            @include fonts($FontD, $FontD1, 3rem);
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+}
+
+.menu{
+    display: none;
+}
+
+.menu.active{
+    position: absolute;
+    background-color: $DarkViolet;
+    width: 100%;
+    height: 451px;
+    top: 5.7rem;
+    left: 0;
+    padding: 2rem 2rem;
+    @include flex(column, center, flex-start, 1rem);
+    text-align: center;
+    a {
+        @include fonts($FontK, $FontK1, 1rem);
+        width: 100%;
+        padding: .75em 0;
+        border: none;
+        text-decoration: none;
+        color: $VeryLightGray;
+        cursor: pointer;
+        z-index: 2;;
+    }
+    #boxed{
+        border: 2px solid $VeryLightGray;
+
+    }
+    img {
+        width: 120%;
+        height: 20rem;
+    }
+
+
+}
+
+.menu.desktop{
+    display: none;
+}
+
+.items {
+    @include flex(column, center, center, 0);
+    text-align: center;
+    padding: 0 25px;
+    
+    img {
+        margin-bottom: 2.2em;
+    }
+    h3 {
+        @include fonts($FontD,$FontD1,2rem);
+        margin-bottom: .625em;
+    }
+    p {
+        color: $DarkGrayishViolet;
+        @include fonts($FontK, $FontK1, 1rem);
+        line-height: 1.5rem;
+        margin-bottom: 3.75em;
+    }
+}
+
+.card {
+    height: 21.5em;
+    margin: 5rem 10vw 0;
+    padding: 0 35px;
+    @include flex(column, center, center, 2.5rem);
+    text-align: center;
+    background-color: $DarkViolet;
+    background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+    @include image(no-repeat, 55%, right, top);
+        h2 {
+            @include fonts($FontD,$FontD1, 2.3rem);
+            line-height: 1.2em;
+            color: white;
+
+        }
+        a {
+            @include fonts($FontK, $FontK1, 1.15rem);
+            padding: .5em 1.5em;
+            border: 2px solid $VeryLightGray;
+            text-decoration: none;
+            color: $VeryLightGray;
+            cursor: pointer;
+            transition: 300ms ease-in-out;
+        }
+        
+        a:hover {
+            background-color: white;
+            color: $DarkViolet;
+        }
+
+}
+
+footer {
+    margin-top: 8.75rem;
+    background-color: $VeryLightGray; 
+    span {
+        display: inline-block;
+        width: 80vw;
+        height: .5px;
+        background-color: $VeryDarkViolet;
+        margin-left: 10vw;
+        margin-right: auto;
+    }
+}
+
+.social {
+    padding: 5.3rem 0 2.19rem;
+    background-image: url(/images/bg-pattern-footer-mobile.svg);
+    @include image(no-repeat, cover, center, center);
+    article{
+        @include flex(column, center, center, 1.56rem);
+            .icons{
+                @include flex(row, center, space-between, 1rem);
+            }
+    }
+}
+
+.end {
+    margin-top: 2.19rem;
+    padding-bottom: 5.6rem;
+    @include flex(column,center,center, 2rem);
+    .our_company {
+        @include flex(column,center,center, .5rem);
+        h2 {
+            @include fonts($FontK, $FontK2, .9rem);
+            color: $DarkGrayishViolet;
+            margin-bottom: 2em
+        }
+        a {
+            @include fonts($FontK, $FontK2, .9rem);
+            border: 5px solid $VeryLightGray;
+            text-decoration: none;
+            color: $VeryDarkViolet;
+            transition: 300ms ease-in-out;
+        }
+
+        a:hover {
+            border-bottom: 1px solid $VeryDarkViolet
+        }
+
+    }
+}
+
+.attribution { 
+    @include fonts($FontK, $FontK2, 11px);
+    text-align: center;
+
+    a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+@import "./media";
